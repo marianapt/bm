@@ -94,8 +94,8 @@
     }
     
     .service-col:hover > div {
-        background: #e67e22;
-        color: #fff;
+        background: #e62922;
+        color: rgb(31, 6, 6);
     }
     
     .icon-wrench, .icon-mobile, .icon-desktop {
