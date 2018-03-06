@@ -1,13 +1,64 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+
+
+<!DOCTYPE html>
+<html lang="en">
 <title>Nowell Borders Webmail :: Welcome to Nowell Borders Webmail</title>
 <meta name="Robots" content="noindex,nofollow" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 <link rel="index" href="./?_task=login" />
-<link rel="shortcut icon" href="skins/classic/images/favicon.ico"/>
-<link rel="stylesheet" type="text/css" href="skins/classic/common.min.css?s=1399644533" />
+
+<meta name="author" content="Mariana Perez">
+
+<!-- google web fonts -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,500,400italic,700' rel='stylesheet' type='text/css'>
+
+<!-- CSS Styles -->
+
+<!-- bootstrap css -->
+<link href="./css/bootstrap.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+<!-- css -->
+<link href="./css/custom.css" rel="stylesheet">
+
+<!-- standart theme css -->
+<link rel="stylesheet" id="theme" href="./css/theme6.css" type="text/css" />
+
+<!-- Font Awesome Icons css -->
+<link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+
+<!-- BxSlider and Sequence Slider css -->
+<link rel="stylesheet" href="./css/jquery.bxslider.css" type="text/css" />
+<link rel="stylesheet" media="screen" href="./css/sequence-slider.css" />
+
+<!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="./css/magnific-popup.css">
+
+<!-- Color Switch Panel css -->
+<link rel="stylesheet" href="./css/color.switch.css" type="text/css" />
+
+<!-- Back to Top Button css -->
+<link rel="stylesheet" href="./css/top.css" type="text/css" />
+
+
+<!-- Fav and touch icons -->
+<link rel="shortcut icon" type="image/x-icon" href=".img/favicon.ico" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
 
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="plugins/jqueryui/themes/classic/jquery-ui-1.9.2.custom.css?s=1399644532">
@@ -16,6 +67,9 @@
 <script src="program/js/app.min.js?s=1399644532" type="text/javascript"></script>
 <script src="program/js/jstz.min.js?s=1399644532" type="text/javascript"></script>
 <script type="text/javascript">
+
+
+
 /* <![CDATA[ */
 
 var rcmail = new rcube_webmail();
@@ -27,13 +81,33 @@ rcmail.gui_object('loginform', 'form');
 /* ]]> */
 
 
+
+
 </script>
 
 <script type="text/javascript" src="plugins/jqueryui/js/jquery-ui-1.9.2.custom.min.js?s=1399644532"></script>
 </head>
 <body style="background-color:black; color: white; font-weight:bold; font-size:18px;">
 
-<img src="img/logo.png" id="logo" border="0" style="margin:0 11px" alt="Nowell Borders Webmail">
+    <!-- NAVBAR -->
+    <!-- class="navbar navbar-expand-lg navbar-light bg-light" -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #be3a31 !important ; font-size: 16px; font-weight:bold; color: black; ">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt=""> Borders Melon Company, Inc.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">About
+                    <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="email.html">Employee Login</a>
+            </div>
+        </div>
+    </nav>
 
 <div id="message"></div>
 
